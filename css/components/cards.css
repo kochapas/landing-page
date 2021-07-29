@@ -1,0 +1,73 @@
+.banner {
+  background: url(https://source.unsplash.com/J3__44tDpAU/3000x2000);
+  height: 80VH;
+  width: auto;
+  background-size: cover;
+  background-position: 50% 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.footer {
+  background: #000000;
+  height: 20VH;
+  width: auto;
+  text-align: center;
+  margin: 0 auto;
+  color: #EEEEEE
+}
+
+.footer a {
+  color: rgb(200, 70, 70);
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.footer li {
+  list-style: none;
+  display: inline;
+}
+
+.footer a:hover {
+  color: rgb(200, 40, 40);
+}
+
+.banner h1, .banner p {
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0,0,5,0.3);
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.5s, transform 0.5s;
+  margin: 20px;
+}
+
+.card h3, .card p {
+  margin-bottom: 0px;
+  margin-top: 0px
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transform: scale(1.05);
+}
